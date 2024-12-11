@@ -39,7 +39,7 @@ jobs:
 
       - name: "Push source code to scratch org"
         run: |
-          sf project deploy start --wait 20 --target-org qa_scratchorg
+          sf project deploy start --wait 30 --target-org qa_scratchorg
 
       - name: "Run Apex tests"
         run: |
